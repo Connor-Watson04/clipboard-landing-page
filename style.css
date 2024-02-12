@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bai Jamjuree";
+  font-size: 18px;
+  overflow-x: hidden;
+}
+.main-body {
+  text-align: center;
+}
+/* ////////// */
+/* Background */
+/* ////////// */
+
+.background {
+  position: absolute;
+}
+
+.mobile {
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+.desktop {
+  width: 1510px;
+}
+
+/* /////// */
+/* Heading */
+/* /////// */
+.header {
+  padding-top: 9rem;
+}
+.logo {
+  margin-bottom: 2rem;
+}
+.heading-primary {
+  font-size: 45px;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+.header-text {
+  color: hsl(201, 11%, 66%);
+  padding: 0 30rem;
+  margin-bottom: 2rem;
+}
+.btn {
+  border-radius: 50px;
+  padding: 1rem 3rem;
+  font-size: 15px;
+  margin: 2rem 1rem 4rem 0;
+  cursor: pointer;
+  color: #fff;
+}
+.ios {
+  border: 1px solid hsl(171, 65%, 37%);
+  border-bottom: 4px solid hsl(171, 65%, 37%);
+  background-color: hsl(171, 63%, 45%);
+  box-shadow: 2px 8px 12px hsla(171, 66%, 44%, 0.355);
+}
+.mac {
+  border: 1px solid hsl(233, 78%, 63%);
+  border-bottom: 4px solid hsl(233, 72%, 62%);
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 2px 8px 12px hsla(233, 100%, 69%, 0.351);
+}
+
+/* //////////// */
+/* Main content */
+/* //////////// */
+
+.heading-secondary {
+  font-size: 35px;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+  margin-top: 0;
+}
+.heading-tertiary {
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+.body-text {
+  color: hsl(201, 11%, 66%);
+}
+.description {
+  padding: 0 25rem;
+  margin-bottom: 7rem;
+}
+
+.grid--2-cols {
+  display: grid;
+  grid-template-columns: 900px 300px;
+  margin-bottom: 6rem;
+}
+.right {
+  text-align: start;
+}
+
+.accessibility-text {
+  padding: 0 25rem;
+  margin-bottom: 6.5rem;
+}
+.workflow-text {
+  margin-bottom: 5rem;
+}
+.grid--3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  justify-content: center;
+  margin-bottom: 10rem;
+  gap: 1.7rem;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  color: hsl(204, 4%, 53%);
+}
+
+.logos {
+  display: grid;
+  grid-template-columns: repeat(5, 250px);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7rem;
+}
+
+.other-logos {
+  justify-self: center;
+}
+
+.clipboard-text {
+  padding: 0 25rem;
+}
+/* ////// */
+/* Footer */
+/* ////// */
+.footer {
+  background-color: hsla(200, 16%, 89%, 0.401);
+  padding: 2rem 3rem;
+}
+
+.main-footer {
+  display: grid;
+  grid-template-columns: 200px 1fr 1fr;
+  gap: 10rem;
+  margin-bottom: 2rem;
+}
+.footer-logo {
+  justify-self: end;
+  align-self: center;
+}
+.small-logo {
+  height: 50px;
+  width: 50px;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  color: hsl(210, 10%, 33%);
+  font-weight: 400;
+}
+
+.links p {
+  margin: 0.6rem 0;
+}
+.link-decor {
+  text-decoration: none;
+  color: hsl(201, 11%, 66%);
+}
+.social-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+  justify-content: center;
+  align-items: center;
+}
+/* ///////////// */
+/* Active states */
+/* ///////////// */
+.buttons {
+  height: 100px;
+  margin-bottom: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ios:hover {
+  background-color: hsl(171, 65%, 50%);
+  border: 1px solid hsl(171, 63%, 45%);
+  border-bottom: 3px solid hsl(171, 63%, 45%);
+  box-shadow: 2px 8px 12px hsla(171, 66%, 44%, 0.174);
+  transition: ease-in-out 0.25s;
+}
+.ios:active {
+  transition: ease-in-out 0.1s;
+  background-color: hsl(171, 64%, 36%);
+  border: 1px solid hsl(171, 68%, 32%);
+  border-top: 3px solid hsl(171, 70%, 26%);
+  box-shadow: 2px 8px 12px hsla(171, 66%, 44%, 0.095);
+}
+
+.mac:hover {
+  background-color: hsl(233, 100%, 77%);
+  border: 1px solid hsl(233, 100%, 70%);
+  border-bottom: 3px solid hsl(233, 100%, 70%);
+  transition: ease-in-out 0.25s;
+  box-shadow: 2px 8px 12px hsla(233, 100%, 69%, 0.168);
+}
+.mac:active {
+  background-color: hsl(233, 57%, 47%);
+  border: 1px solid hsl(233, 55%, 33%);
+  border-top: 3px solid hsl(233, 55%, 33%);
+  transition: ease-in-out 0.1s;
+  box-shadow: 2px 8px 12px hsla(233, 100%, 69%, 0.093);
+}
+
+.link-decor:hover,
+.link-decor:active {
+  cursor: pointer;
+  color: hsl(171, 81%, 54%);
+}
+.social-media {
+  height: 30px;
+  width: 30px;
+}
+.social-media:hover,
+.social-media:active {
+  cursor: pointer;
+  color: hsl(171, 63%, 45%);
+}
